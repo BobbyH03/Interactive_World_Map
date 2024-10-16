@@ -1,12 +1,12 @@
-Interactive World Map
-Project Overview
+Interactive World Map Project Overview
+
 This project is an interactive map built using Angular, Node.js, TypeScript, HTML, and CSS. It lets users click on a country on the map, which then triggers a call to an API. The data from the API is shown in real time based on the country selected.
 
 Key Components
 
 Frontend (Angular, SVG, TypeScript):
 The frontend is built with Angular.
-The SVG Map displays the countries. Each country is a clickable region.
+The SVG Map displays the countries and each country is a clickable region.
 When a country is clicked or a two-digit country code is entered by the user, the application gets the country’s ID.
 The frontend sends this ID to the backend to get the data through an API call.
 
@@ -32,17 +32,11 @@ The frontend displays the data returned from the backend, such as population or 
 Architecture & Design Considerations
 
 Modular Design: Each part of the map and its data is separated into Angular components, making it easy to change or add new features.
-
-Separation of Concerns: The frontend focuses on showing the map and handling user clicks, while the backend handles the data fetching and processing.
-
+Separation of Concerns: The frontend focuses on showing the map and handling user clicks, while the backend handles the data processing.
 Scalability: The project can easily grow by adding more data without major changes to the code.
-
-Responsiveness: The SVG map is responsive and works well on different screen sizes.
 
 Potential Use Cases
 
 Education: An interactive map to learn about countries, their economies, and other facts.
-
 Tourism: Show travel information when clicking on countries.
-
 Data Visualization: Use the map to display global data, like population or climate information.
