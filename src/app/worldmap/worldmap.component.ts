@@ -96,7 +96,7 @@ export class WorldmapComponent implements OnInit {
         // Change color on hover
         svgCountry.addEventListener('mouseover', (event: MouseEvent) => {
           const path = event.target as SVGPathElement;
-          path.style.fill = '#00FFFF';
+          path.style.fill = '#8B0000';
         });
 
         // Revert color
