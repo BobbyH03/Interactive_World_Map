@@ -1,3 +1,5 @@
+Live site can be seen here https://bobbyh03.github.io/Interactive_World_Map/
+
 Interactive World Map Project Overview
 
 This project is an interactive map built using Angular, Node.js, TypeScript, HTML, and CSS. It lets users click on a country on the map, which then triggers a call to an API. The data from the API is shown in real time based on the country selected.
