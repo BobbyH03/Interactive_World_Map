@@ -32,12 +32,17 @@ The frontend displays the data returned from the backend, such as population or 
 Architecture & Design Considerations
 
 Modular Design: Each part of the map and its data is separated into Angular components, making it easy to change or add new features.
+
 Separation of Concerns: The frontend focuses on showing the map and handling user clicks, while the backend handles the data fetching and processing.
+
 Scalability: The project can easily grow by adding more data without major changes to the code.
+
 Responsiveness: The SVG map is responsive and works well on different screen sizes.
 
 Potential Use Cases
 
 Education: An interactive map to learn about countries, their economies, and other facts.
+
 Tourism: Show travel information when clicking on countries.
+
 Data Visualization: Use the map to display global data, like population or climate information.
