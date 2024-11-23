@@ -25,11 +25,8 @@ When a user clicks a country or a two-digit country code is entered, an event tr
 
 Data Fetching:
 After getting the country’s ID, the frontend makes an HTTP request to the backend with this ID.
-The backend processes this request and gets data for the country.
-The data is then sent back to the frontend.
-
-Data Display:
-The frontend displays the data returned from the backend, such as population or economic details.
+The backend processes this request and gets data for the country using an external API with information regarding each country.
+The data is then sent back to the frontend to be displayed.
 
 Architecture & Design Considerations
 
