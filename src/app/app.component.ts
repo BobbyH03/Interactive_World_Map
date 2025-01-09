@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 
@@ -9,10 +9,12 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Interactive World Map';
 
-  constructor(private titleService: Title) {
+  constructor(private titleService: Title) {}
+
+  ngOnInit() {
     this.titleService.setTitle(this.title);
   }
 }
