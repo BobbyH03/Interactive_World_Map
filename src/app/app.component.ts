@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Interactive World Map';
+
+  constructor(private titleService: Title) {
+    this.titleService.setTitle(this.title);  // Set the page's title
+  }
 }
