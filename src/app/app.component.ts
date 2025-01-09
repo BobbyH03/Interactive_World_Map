@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,6 @@ export class AppComponent {
   title = 'Interactive World Map';
 
   constructor(private titleService: Title) {
-    this.titleService.setTitle(this.title);  // Set the page's title
+    this.titleService.setTitle(this.title);
   }
 }
